@@ -1,0 +1,126 @@
+/* Color Palette
+
+    Main Color
+
+    #040D12 - really dark blue green
+    #183D3D - dark blue green
+    #5C8374 - blue green
+    #93B1A6 - light blue green
+
+    No color
+
+    #151515 - mf fav gray color
+    #FFFFFF - white
+
+    Splash of color
+    #EBE76C - yellow
+    #F0B86E - orange
+
+
+*/
+
+/* Top bar */
+
+body{
+    background-color: #183D3D;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.topbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    width: 100%;
+    height: 75px;
+    background-color: #040D12;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+/* links */
+
+.link{
+    font-size: 20px;
+    margin: 10px;
+    text-decoration: none;
+    color: #93B1A6;
+    transition: .3s;
+}
+
+.link:hover{
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+
+
+/* headers */
+h1, h3{
+    color: #93B1A6;
+}
+
+
+.text{
+    font-size: 15px;
+    margin: 10px;
+    text-decoration: none;
+    color: #93B1A6;
+}
+
+fieldset{
+    margin: 25px;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.title{
+    text-align: left;
+    font-size: 25px;
+    text-decoration: none;
+    color: #93B1A6;
+}
+
+.icon{
+    filter: brightness(0) saturate(100%) invert(100%) grayscale(100%);
+    max-width: 100%;
+    height: 25px;
+    margin-right: 5px;
+}
+
+.profilePic{
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    transition: .5s;
+}
+
+.hoverPic:hover{
+    width: 200px;
+    height: 200px;
+    border: 5px solid #EBE76C;
+    border-radius: 15px;;
+}
+
+/* After 2 hours na discover na 
+jud nako ang easiest way
+to center a div */
+.center{
+    display: grid;
+    place-items: center;
+}
+
+.screenShot{
+    width: 50%;
+    height: auto;
+    border-radius: 25px;
+    margin: 10px;
+    border: 0px;
+    transition: .3s;
+    box-shadow: #040D12 10px 10px;
+}
+
+.screenShot:hover{
+    border: 5px solid #F0B86E;
+    box-shadow: #EBE76C 10px 10px;
+}
